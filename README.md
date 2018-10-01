@@ -1,22 +1,29 @@
-# 19_vogsphere_access
-Kerberos &amp; Git access of 19's school
+# 42 US Remote Vogsphere Access Setup
+##Setup Kerberos &amp; Git access to 42 US
 
-A script that make all stuff necessary to access to the vogsphere from GNU/Linux or OS X.
+To setup access to your git repos on vogsphere, (only works on LInux / OSX)
 
-The script is documented so read it. Thanks to colundrum 
+####Clone this repo
 
-SOURCE : https://github.com/colundrum/42_vogsphere_access
+####Run the shell script 
+	
+	sudo sh run.sh
 
-###To identify you :
+(Enter system password if you need sudo previleges)
 
-kinit yourloginhere
-enter your 19's password
+####Get your kerberos ticket
 
-You are connected, now you can git clone/push/pull from/to vogsphere.
+	kinit xloginx
 
-###To close your connexion :
+(xloginx represents your login id)
 
-kdestroy
+####Enter your 42 password when asked to successfull authenticate.
 
-##Welcome to the freedom to work anywhere in 42's school, outside of clusters
+####Clone/Push/Pull from all the Vogsphere Git repos you have access to. 
 
+####To close your connection :
+
+    kdestroy
+
+
+### You can now access your vogsphere outside the 42 clusters
