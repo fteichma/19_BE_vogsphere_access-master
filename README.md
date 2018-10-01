@@ -1,5 +1,5 @@
-# 42 US Remote Vogsphere Access Setup
-##Setup Kerberos &amp; Git access to 42 US
+# s19 BE Remote Vogsphere Access Setup
+##Setup Kerberos &amp; Git access to s19 BE
 
 To setup access to your git repos on vogsphere, (only works on LInux / OSX)
 
@@ -13,11 +13,9 @@ To setup access to your git repos on vogsphere, (only works on LInux / OSX)
 
 ####Get your kerberos ticket
 
-	kinit xloginx
+	kinit YOUR_LOGIN_HERE
 
-(xloginx represents your login id)
-
-####Enter your 42 password when asked to successfull authenticate.
+####Enter your s19 password when asked to successfull authenticate.
 
 ####Clone/Push/Pull from all the Vogsphere Git repos you have access to. 
 
@@ -26,4 +24,6 @@ To setup access to your git repos on vogsphere, (only works on LInux / OSX)
     kdestroy
 
 
-### You can now access your vogsphere outside the 42 clusters
+### You can now access your vogsphere outside the s19 clusters
+
+source : https://github.com/colundrum/42_vogsphere_access (modified version)
