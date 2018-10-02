@@ -1,4 +1,4 @@
-# s19 BE Remote Vogsphere Access Setup - Work Only On The School Wifi : => s19 <=
+# s19 BE Remote Vogsphere Access Setup - Only Works On The School Wifi : => s19 <=
 ##Setup Kerberos &amp; Git access to s19 BE
 
 To setup access to your git repos on vogsphere, (only works on LInux / OSX)
